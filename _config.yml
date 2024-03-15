@@ -11,17 +11,17 @@ exclude: ["README.md", "Gemfile", "Gemfile.lock", "node_modules", "vendor", "_si
 plugins: [] # If you're using any Jekyll plugins, list them here
 
 # GitHub Pages settings
-remote_theme: arnabastro/arnabastro.github.io # If you're using a remote theme, specify it here
-include:
-  - main.css
+#remote_theme: arnabastro/arnabastro.github.io # If you're using a remote theme, specify it here
+#include:
+#  - main.css
 github_pages: 
   enabled: true # Set to true if you're hosting on GitHub Pages
   branch: main # The branch you're deploying from
 
 # Author settings
 author:
-  name: Your Name
-  email: your@email.com
+  name: Arnab Sarkar
+  email: arnabsar@mit.edu
   bio: A short bio about yourself
 
 # Social links
