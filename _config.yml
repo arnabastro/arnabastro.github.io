@@ -115,8 +115,8 @@ analytics:
 author:
   name             : "Arnab Sarkar"
   avatar           : "./assets/images/arnab_sarkar_0320_cropped.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : " "
-  location         : "Cambridge, MA"
+  bio              : 
+  location         : 
   email            : 
   links:
     - label: "Email"
