@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Arnab Sarkar"
-  avatar           : "/assets/images/arnab_sarkar_0320_cropped.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "./assets/images/arnab_sarkar_0320_cropped.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
