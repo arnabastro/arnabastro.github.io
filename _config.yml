@@ -320,10 +320,10 @@ defaults:
       type: posts
     values:
       layout: single
-      header:
-        overlay_image: ./assets/images/stsci-01gqqfcdz3j7arc9f8qdxe0f7z.png
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+    header:
+        overlay_image: ./assets/images/stsci-01gqqfcdz3j7arc9f8qdxe0f7z.png
