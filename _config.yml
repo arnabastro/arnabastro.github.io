@@ -159,6 +159,10 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+  custom_class: "custom-footer-size"
+  .custom-footer-size {
+  font-size: 0.8rem; /* Adjust this value as needed */
+  }
 
 
 # Reading Files
