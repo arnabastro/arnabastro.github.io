@@ -25,8 +25,8 @@ description              : "Professional Website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "./assets/images/stsci-01gqqfcdz3j7arc9f8qdxe0f7z.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "./assets/images/stsci-01gqqfcdz3j7arc9f8qdxe0f7z.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     :  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -138,6 +138,12 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+
+## Site Header
+header: 
+  image: "./assets/images/stsci-01gqqfcdz3j7arc9f8qdxe0f7z.png"
+
+
 # Site Footer
 footer:
   links:
@@ -159,11 +165,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-  custom_class: "custom-footer-size"
-  .custom-footer-size {
-  font-size: 0.8rem; /* Adjust this value as needed */
-  }
-
+  
 
 # Reading Files
 include:
