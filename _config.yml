@@ -10,19 +10,19 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme                  : "minimal-mistakes-jekyll"
+#remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : " "
+title                    : "Professional Website"
 title_separator          : " "
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Arnab Sarkar"
 description              : "Professional Website"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://arnabastro.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -138,14 +138,6 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-
-## Site Header
-header:
-  overlay_image: ./assets/images/stsci-01gqqfcdz3j7arc9f8qdxe0f7z.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "More Info"
-      url: "https://unsplash.com"
 
 
 # Site Footer
@@ -328,6 +320,8 @@ defaults:
       type: posts
     values:
       layout: single
+      header:
+        overlay_image: ./assets/images/stsci-01gqqfcdz3j7arc9f8qdxe0f7z.png
       author_profile: true
       read_time: true
       comments: # true
